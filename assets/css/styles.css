@@ -1,4 +1,89 @@
-/*Add your custom styles here*/
-.starting-title {
+#container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* Tabela użytkowników */
+
+#users-table{
+    border-collapse: collapse;
+    width: inherit;
+}
+
+#users-table p{
+    font-size: 14px;
+    margin: 0px 5px;
+}
+
+.email a{
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+}
+
+tr, td{
+    border: solid #222 1px;
+}
+
+#users-table td{
+    padding: 5px;
+    width: fit-content;
+}
+
+#buttons{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 2px 8px;
+}
+
+#users-table .header{
     text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Formularz */
+
+#form-container{  
+    align-items: flex-start;  
+    display: flex;
+    flex-direction: row;
+}
+
+#new_user_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#new_user_form .header{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+#new_user_form label{
+    font-size: 14px;
+}
+
+#new_user_form p{
+    margin: 10px 0px;
+}
+
+#geo_loc{
+    display: flex;
+    flex-direction: column;
+}
+
+#geo_loc_2{
+    margin-top: 5px;
+}
+
+.left_column, .right_column{
+    width: 50%;
+    margin: 20px;
 }
